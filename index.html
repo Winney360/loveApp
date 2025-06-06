@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Do You Love Me? 💖</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="love-note" id="loveNote">
+        <div class="note-content">
+            <span class="note-emoji">💖</span>
+            <span class="note-text">Yay! I love you too! You made me the happiest gal in the world! 🥰</span>
+            <button class="close-note" onclick="document.getElementById('loveNote').style.display='none'">×</button>
+        </div>
+    </div>
+    
+    <div class="container">
+        <div class="game-card">
+            <div class="doll-character">
+                <div class="doll-face">
+                    <div class="eyes">
+                        <span class="eye">👁️</span>
+                        <span class="eye">👁️</span>
+                    </div>
+                    <div class="mouth">💋</div>
+                </div>
+                <div class="doll-body">🎀</div>
+            </div>
+            
+            <h1 class="question">Do you love me?</h1>
+            
+            <div class="buttons-container">
+                <button id="yesBtn" class="btn btn-yes">
+                    💖 Yes 💖
+                </button>
+                <button id="noBtn" class="btn btn-no">
+                    💔 No
+                </button>
+            </div>
+        </div>
+        
+        <div class="hearts-container">
+            <div class="heart">💖</div>
+            <div class="heart">💕</div>
+            <div class="heart">💝</div>
+            <div class="heart">💗</div>
+            <div class="heart">💓</div>
+        </div>
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>
