@@ -12,7 +12,7 @@ document.addEventListener('DOMContentLoaded', function() {
     
     // No button direction change functionality
     let noBtnMoveCount = 0;
-    let currentDirection = 1; // 1 for right, -1 for left
+    let currentDirection = 1; 
     
     function changeNoButtonDirection() {
         noBtnMoveCount++;
@@ -46,7 +46,7 @@ document.addEventListener('DOMContentLoaded', function() {
             "😢 Nope?", 
             "😭 Never?",
             "🥺 Please.. no?",
-            "😰 Stop trying to hurt me :(",
+            "😰 Stop trying to hurt me please :(",
             "😵 Please don't break my heart",
             "🤯 Trust me I've been broken before",
             "😴 Still no?",
