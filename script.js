@@ -49,7 +49,7 @@ document.addEventListener('DOMContentLoaded', function() {
             "😰 Stop trying to hurt me:(",
             "😵 Please don't break my heart",
             "🤯 Trust me I've been broken before",
-            "😴 Still no?",
+            "😴 Still no.. really?",
             "🥰 Just say yes! You know how much i love you :("
         ];
         
